@@ -23,17 +23,25 @@ For a transparent usage:
 
 ## Direct import sample
 
-`import { RiAncientGateFill } from "https://deno.land/x/react_icons_ri@1.0.1/mod.ts"`
+```ts
+import { RiAncientGateFill } from "https://deno.land/x/react_icons_ri@1.0.1/mod.ts"
+```
 
 ## import_map import sample
 
-`import { RiAncientGateFill } from "react-icons/ri"`
+```ts
+import { RiAncientGateFill } from "react-icons/ri"
+```
 
 ## minimal import
 
-`import { RiAncientGateFill } from "react-icons/ri/RiAncientGateFill.ts"`
+```ts
+import { RiAncientGateFill } from "react-icons/ri/RiAncientGateFill.ts"
+```
 
-## minimal import default
+## minimal import using default export
 
-`import RiAncientGateFill from "react-icons/ri/RiAncientGateFill.ts"`
+```ts
+import RiAncientGateFill from "react-icons/ri/RiAncientGateFill.ts"
+```
 
