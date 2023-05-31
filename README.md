@@ -15,31 +15,31 @@ For a transparent usage:
   "imports": {
     "preact":  "https://esm.sh/preact@10.15.1",
     "preact/": "https://esm.sh/preact@10.15.1/",
-    "react-icons/ri":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-ri@1.0.6/mod.ts",
-    "react-icons/ri/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-ri@1.0.6/ico/",
+    "react-icons/ri":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-ri@1.0.7/mod.ts",
+    "react-icons/ri/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-ri@1.0.7/ico/",
   }
 }
 ```
 
-## Direct import sample
+## Import an icon without import_map by and afer loading all icons from the lib ri
 
 ```ts
-import { RiAncientGateFill } from "https://deno.land/x/react_icons_ri@1.0.6/mod.ts"
+import { RiAncientGateFill } from "https://deno.land/x/react_icons_ri@1.0.7/mod.ts"
 ```
 
-## import_map import sample
+## import_map import an icon from all icons
 
 ```ts
 import { RiAncientGateFill } from "react-icons/ri"
 ```
 
-## minimal import
+## import a single icon, downloading just one icon
 
 ```ts
 import { RiAncientGateFill } from "react-icons/ri/RiAncientGateFill.ts"
 ```
 
-## minimal import using default export
+or using default export
 
 ```ts
 import RiAncientGateFill from "react-icons/ri/RiAncientGateFill.ts"
