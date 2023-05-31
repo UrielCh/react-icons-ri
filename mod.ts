@@ -17,8 +17,8 @@
  *   "imports": {
  *     "preact":  "https://esm.sh/preact@10.15.1",
  *     "preact/": "https://esm.sh/preact@10.15.1/",
- *     "react-icons/ri":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-ri@1.0.3/mod.ts",
- *     "react-icons/ri/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-ri/ico/",
+ *     "react-icons/ri":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-ri@1.0.4/mod.ts",
+ *     "react-icons/ri/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-ri@1.0.4/ico/",
  *   }
  * }
  * ```
@@ -26,7 +26,7 @@
  * ## Direct import sample
  * 
  * ```ts
- * import { RiAncientGateFill } from "https://deno.land/x/react_icons_ri@1.0.3/mod.ts"
+ * import { RiAncientGateFill } from "https://deno.land/x/react_icons_ri@1.0.4/mod.ts"
  * ```
  * 
  * ## import_map import sample
