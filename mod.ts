@@ -716,8 +716,6 @@ export { RiBook3Fill } from './ico/RiBook3Fill.ts';
 export { RiBook3Line } from './ico/RiBook3Line.ts';
 export { RiBookFill } from './ico/RiBookFill.ts';
 export { RiBookLine } from './ico/RiBookLine.ts';
-export { RiBookMarkFill } from './ico/RiBookMarkFill.ts';
-export { RiBookMarkLine } from './ico/RiBookMarkLine.ts';
 export { RiBookOpenFill } from './ico/RiBookOpenFill.ts';
 export { RiBookOpenLine } from './ico/RiBookOpenLine.ts';
 export { RiBookReadFill } from './ico/RiBookReadFill.ts';
