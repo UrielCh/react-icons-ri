@@ -13,18 +13,27 @@ For a transparent usage:
 ```json
 {
   "imports": {
-    "preact": "https://esm.sh/preact@10.15.1",
+    "preact":  "https://esm.sh/preact@10.15.1",
     "preact/": "https://esm.sh/preact@10.15.1/",
-    "react-icons/ri": "https://deno.land/x/react_icons_ri@1.0.0//mod.ts",
+    "react-icons/ri":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-ri@1.0.1/mod.ts",
+    "react-icons/ri/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-ri/ico/",
   }
 }
 ```
 
 ## Direct import sample
 
-`import { RiAncientGateFill } from "https://deno.land/x/react_icons_ri@1.0.0/mod.ts"`
+`import { RiAncientGateFill } from "https://deno.land/x/react_icons_ri@1.0.1/mod.ts"`
 
 ## import_map import sample
 
 `import { RiAncientGateFill } from "react-icons/ri"`
+
+## minimal import
+
+`import { RiAncientGateFill } from "react-icons/ri/RiAncientGateFill.ts"`
+
+## minimal import default
+
+`import RiAncientGateFill from "react-icons/ri/RiAncientGateFill.ts"`
 

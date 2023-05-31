@@ -3,3 +3,4 @@ import { GenIcon, type IconBaseProps } from "https://deno.land/x/react_icons@1.0
 export function RiKeyFill(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24"},child:[{tag:"g",attr:{},child:[{tag:"path",attr:{fill:"none",d:"M0 0h24v24H0z"}},{tag:"path",attr:{d:"M17 14h-4.341a6 6 0 1 1 0-4H23v4h-2v4h-4v-4zM7 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"}}]}]})(props);
 }
+export default RiKeyFill;
