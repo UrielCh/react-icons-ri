@@ -1,6 +1,6 @@
 import { GenIcon, type IconBaseProps } from "../deps.ts";
 
 export function RiArrowDropUpFill(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24"},child:[{tag:"g",attr:{},child:[{tag:"path",attr:{fill:"none",d:"M0 0h24v24H0z"}},{tag:"path",attr:{d:"M12 10l4 4H8z"}}]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 10L16 14H8L12 10Z"}}]})(props);
 }
 export default RiArrowDropUpFill;

@@ -1,0 +1,6 @@
+import { GenIcon, type IconBaseProps } from "../deps.ts";
+
+export function RiExpandLeftRightFill(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M9 6 3 12 9 18V6ZM15 18 21 12 15 6V18Z"}}]})(props);
+}
+export default RiExpandLeftRightFill;

@@ -13,10 +13,10 @@ For a transparent usage:
 ```json
 {
   "imports": {
-    "preact":  "https://esm.sh/preact@10.15.1",
-    "preact/": "https://esm.sh/preact@10.15.1/",
-    "react-icons/ri":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-ri@1.0.9/mod.ts",
-    "react-icons/ri/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-ri@1.0.9/ico/",
+    "preact":  "https://esm.sh/preact@10.22.1",
+    "preact/": "https://esm.sh/preact@10.22.1/",
+    "react-icons/ri":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-ri@1.0.10/mod.ts",
+    "react-icons/ri/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-ri@1.0.10/ico/",
   }
 }
 ```
@@ -24,24 +24,24 @@ For a transparent usage:
 ## Import an icon without import_map by and afer loading all icons from the lib ri
 
 ```ts
-import { RiAncientGateFill } from "https://deno.land/x/react_icons_ri@1.0.9/mod.ts"
+import { RiArrowDownCircleFill2 } from "https://deno.land/x/react_icons_ri@1.0.10/mod.ts"
 ```
 
 ## import_map import an icon from all icons
 
 ```ts
-import { RiAncientGateFill } from "react-icons/ri"
+import { RiArrowDownCircleFill2 } from "react-icons/ri"
 ```
 
 ## import a single icon, downloading just one icon
 
 ```ts
-import { RiAncientGateFill } from "react-icons/ri/RiAncientGateFill.ts"
+import { RiArrowDownCircleFill2 } from "react-icons/ri/RiArrowDownCircleFill2.ts"
 ```
 
 or using default export
 
 ```ts
-import RiAncientGateFill from "react-icons/ri/RiAncientGateFill.ts"
+import RiArrowDownCircleFill2 from "react-icons/ri/RiArrowDownCircleFill2.ts"
 ```
 
