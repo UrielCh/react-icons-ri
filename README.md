@@ -42,5 +42,5 @@ import { RiArrowDownCircleFill2 } from "react-icons/ri/RiArrowDownCircleFill2"
 or using default export
 
 ```ts
-import RiArrowDownCircleFill2 from "react-icons/ri/RiArrowDownCircleFill2.ts"
+import RiArrowDownCircleFill2 from "react-icons/ri/RiArrowDownCircleFill2"
 ```
