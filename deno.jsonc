@@ -6,8 +6,6 @@
     ".": "./mod.ts",
     "./Ri24HoursFill": "./ico/Ri24HoursFill.ts",
     "./Ri24HoursLine": "./ico/Ri24HoursLine.ts",
-    "./Ri4kFill": "./ico/Ri4kFill.ts",
-    "./Ri4kLine": "./ico/Ri4kLine.ts",
     "./RiAB": "./ico/RiAB.ts",
     "./RiAccountBoxFill": "./ico/RiAccountBoxFill.ts",
     "./RiAccountBoxLine": "./ico/RiAccountBoxLine.ts",
