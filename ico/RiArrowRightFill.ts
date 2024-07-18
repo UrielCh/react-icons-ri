@@ -1,6 +1,11 @@
-import { GenIcon, type IconBaseProps } from "../deps.ts";
+import { GenIcon } from "../deps.ts";
+import type { IconBaseProps, JSX, VNode } from "../deps.ts";
 
-export function RiArrowRightFill(props: IconBaseProps) {
+/**
+ * ArrowRightFill icon from Remix Icon
+ * @module
+ */
+export function RiArrowRightFill(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 13H4V11H12V4L20 12L12 20V13Z"}}]})(props);
 }
 export default RiArrowRightFill;

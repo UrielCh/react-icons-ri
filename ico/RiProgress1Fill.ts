@@ -1,6 +1,11 @@
-import { GenIcon, type IconBaseProps } from "../deps.ts";
+import { GenIcon } from "../deps.ts";
+import type { IconBaseProps, JSX, VNode } from "../deps.ts";
 
-export function RiProgress1Fill(props: IconBaseProps) {
+/**
+ * Progress1Fill icon from Remix Icon
+ * @module
+ */
+export function RiProgress1Fill(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM12 12V6C13.6569 6 15.1569 6.67157 16.2426 7.75736L12 12Z"}}]})(props);
 }
 export default RiProgress1Fill;

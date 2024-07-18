@@ -1,6 +1,11 @@
-import { GenIcon, type IconBaseProps } from "../deps.ts";
+import { GenIcon } from "../deps.ts";
+import type { IconBaseProps, JSX, VNode } from "../deps.ts";
 
-export function RiMailLine(props: IconBaseProps) {
+/**
+ * MailLine icon from Remix Icon
+ * @module
+ */
+export function RiMailLine(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z"}}]})(props);
 }
 export default RiMailLine;

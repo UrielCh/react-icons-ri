@@ -1,6 +1,11 @@
-import { GenIcon, type IconBaseProps } from "../deps.ts";
+import { GenIcon } from "../deps.ts";
+import type { IconBaseProps, JSX, VNode } from "../deps.ts";
 
-export function RiMapPin3Fill(props: IconBaseProps) {
+/**
+ * MapPin3Fill icon from Remix Icon
+ * @module
+ */
+export function RiMapPin3Fill(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M11 19.9451C6.50005 19.4476 3 15.6326 3 11C3 6.02944 7.02944 2 12 2C16.9706 2 21 6.02944 21 11C21 15.6326 17.5 19.4476 13 19.9451V24H11V19.9451Z"}}]})(props);
 }
 export default RiMapPin3Fill;

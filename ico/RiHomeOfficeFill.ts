@@ -1,6 +1,11 @@
-import { GenIcon, type IconBaseProps } from "../deps.ts";
+import { GenIcon } from "../deps.ts";
+import type { IconBaseProps, JSX, VNode } from "../deps.ts";
 
-export function RiHomeOfficeFill(props: IconBaseProps) {
+/**
+ * HomeOfficeFill icon from Remix Icon
+ * @module
+ */
+export function RiHomeOfficeFill(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M20.7999 9H12V17H11V21.0001H5C4.44772 21.0001 4 20.5524 4 20.0001V11.0001L1 11.0001 11.3273 1.61162C11.7087 1.26488 12.2913 1.26488 12.6727 1.61162L20.7999 9ZM14 11H23V18H14V11ZM13 21H24V19H13V21Z"}}]})(props);
 }
 export default RiHomeOfficeFill;

@@ -1,6 +1,11 @@
-import { GenIcon, type IconBaseProps } from "../deps.ts";
+import { GenIcon } from "../deps.ts";
+import type { IconBaseProps, JSX, VNode } from "../deps.ts";
 
-export function RiSignalWifi2Fill(props: IconBaseProps) {
+/**
+ * SignalWifi2Fill icon from Remix Icon
+ * @module
+ */
+export function RiSignalWifi2Fill(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12.0005 3C16.2849 3 20.2196 4.49683 23.3104 6.99607L12.0005 21L0.689941 6.99671C3.78078 4.49709 7.71583 3 12.0005 3ZM12.0005 5C8.97296 5 6.07788 5.84185 3.57997 7.39179L6.75851 11.327C8.31685 10.4807 10.1026 10 12.0005 10C13.8983 10 15.6838 10.4806 17.242 11.3267L20.4204 7.39132C17.9226 5.84167 15.0278 5 12.0005 5Z"}}]})(props);
 }
 export default RiSignalWifi2Fill;
