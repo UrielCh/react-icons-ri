@@ -30,17 +30,17 @@ Currently Deno fresh import preact using https://esm.sh/preact http import can n
 ## import an icon from all icons
 
 ```ts
-import { RiArrowDownCircleFill2 } from "@preact-icons/ri"
+import { RiArrowDownBoxFill } from "@preact-icons/ri"
 ```
 
 ## import a single icon, downloading just one icon
 
 ```ts
-import { RiArrowDownCircleFill2 } from "react-icons/ri/RiArrowDownCircleFill2"
+import { RiArrowDownBoxFill } from "react-icons/ri/RiArrowDownBoxFill"
 ```
 
 or using default export
 
 ```ts
-import RiArrowDownCircleFill2 from "react-icons/ri/RiArrowDownCircleFill2"
+import RiArrowDownBoxFill from "react-icons/ri/RiArrowDownBoxFill"
 ```
